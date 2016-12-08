@@ -26,9 +26,18 @@ $(document).ready(function () {
         // alert($('input[name=color]:checked').val());
     });
 
-    $('.btn').click(function(){
-        $('.square').css("background-color","white");
-    });
+    function sides(){
+        prompt('How many squares per side on the new grid?');
+    }
+        
+    function clear(){
+        $('.btn').click(function(){
+        sides();
+        $('.square').fadeOut("slow").fadeIn("slow").css("background-color","white");
+        });
+    }
 
+    clear();
+    
 
 });
