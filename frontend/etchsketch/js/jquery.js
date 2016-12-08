@@ -7,6 +7,8 @@ var $square = $("<div />", {
     class: 'square'
 });
 
+
+
 $(document).ready(function () {
     //add columns to the the temp row object
     for (var i = 0; i < columns; i++) {
@@ -16,13 +18,17 @@ $(document).ready(function () {
     for (var i = 0; i < rows; i++) {
         $("#wrapper").append($row.clone());
     }
+
     $('.square').hover(function(){
-        $(this).css("background-color","yellow");
+        $(this).css("background-color","black");
         }, function() {
-        $(this).css("background-color","turquoise");
+        $(this).css("background-color",$('input[name=color]:checked').val());
+        // alert($('input[name=color]:checked').val());
     });
 
     $('.btn').click(function(){
         $('.square').css("background-color","white");
     });
+
+
 });
