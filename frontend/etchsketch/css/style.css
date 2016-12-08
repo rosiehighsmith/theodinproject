@@ -1,0 +1,42 @@
+body {
+  background: #F2EEE9;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 auto;
+  width: 240px;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  outline: 1px solid;
+  display: inline-block;
+  float: left;
+  background: white;
+}
+
+#wrapper {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    background: #f2eee9;
+}
+.row {
+    width: auto;
+    height: 50px;
+    background: #313131;
+}
