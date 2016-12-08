@@ -3,6 +3,8 @@ body {
   text-align: center;
   font-weight: 100;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -14,12 +16,14 @@ h2 {
   font-size: 16px;
   font-weight: 100;
   margin: 0 auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
   width: 240px;
 }
 
 .square {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin: 0px;
   outline: 1px solid;
   display: inline-block;
@@ -28,15 +32,28 @@ h2 {
 }
 
 #wrapper {
-    width: 800px;
-    height: 800px;
-    margin-left: auto;
-    margin-top: 0px;
-    margin-right: auto;
-    background: #f2eee9;
+  width: 480px;
+  height: 480px;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  background: #f2eee9;
 }
 .row {
-    width: auto;
-    height: 50px;
-    background: #313131;
+  width: auto;
+  height: 30px;
+  background: #313131;
+}
+
+.btn {
+  border-radius: 6%;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  float: right;
 }

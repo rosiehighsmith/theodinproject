@@ -21,4 +21,8 @@ $(document).ready(function () {
         }, function() {
         $(this).css("background-color","turquoise");
     });
+
+    $('.btn').click(function(){
+        $('.square').css("background-color","white");
+    });
 });
