@@ -26,9 +26,9 @@ $(document).ready(function () {
         // alert($('input[name=color]:checked').val());
     });
 
-    function sides(){
-        prompt('How many squares per side on the new grid?');
-    }
+    // function sides(){
+    //     var sideInput = prompt('How many squares per side on the new grid?');
+    // }
         
     function clear(){
         $('.btn').click(function(){
