@@ -32,7 +32,7 @@ $(document).ready(function () {
         
     function clear(){
         $('.btn').click(function(){
-        sides();
+        // sides();
         $('.square').fadeOut("slow").fadeIn("slow").css("background-color","white");
         });
     }
